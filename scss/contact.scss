@@ -1,0 +1,139 @@
+.contact {
+    width: 980px;
+    min-height: 600px;
+    // background-color: darkcyan;
+    margin: 0 auto;
+    margin-top: 55px;
+    margin-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .contact-header {
+        width: 300px;
+        margin-bottom: 51px;
+
+        h1 {
+            font-family: JuliusSans;
+            font-size: 30px;
+        }
+
+        .contact-line {
+            width: 159px;
+            border-bottom: 2px solid #000;
+            margin-top: -15px;
+        }
+    }
+
+    .contact-forms {
+        width: 975px;
+        min-height: 300px;
+        // background-color: antiquewhite;
+        display: flex;
+
+        .contact-left {
+            width: 442px;
+            height: 650px;
+            // background-color: aquamarine;
+
+            .map {
+                width: 400px;
+                height: 442px;
+                margin-bottom: 34px;
+
+                img {
+                    width: 400px;
+                    height: 442px;
+                    object-fit: cover;
+
+                }
+            }
+
+            .address {
+                width: 300px;
+                height: 161px;
+
+                p {
+                    font-family: Sora;
+                    font-size: 16px;
+                    text-align: left;
+                    margin-bottom: 2px;
+                }
+            }
+        }
+
+        .contact-right {
+            width: 529px;
+            height: auto;
+            // background-color: blueviolet;
+
+            .contact-form {
+                display: block;
+                
+                .text-type {
+                    width: 529px;
+                    height: 60px;
+                    border: none;
+                    margin-bottom: 21px;
+                    font-family: Sora;
+                    font-size: 16px;
+                    padding-left: 20px;
+                }
+
+                .message-type {
+                    width: 529px;
+                    height: 199px;
+                    font-family: Sora;
+                    font-size: 16px;
+                    border: none;
+                    padding-left: 20px;
+                    padding-bottom: 150px;
+                }
+
+                .send-message {
+                    width: 167px;
+                    height: 60px;
+                    background-color: #79ADDC;
+
+                    .button {
+                        font-family: Sora;
+                        font-size: 16px;
+                        color: #fff;
+                        text-transform: uppercase;
+                        margin-top: 20px;
+
+                        padding-top: 20px;
+                        padding-left: 20px;
+                    }
+
+                }
+
+            }
+
+        }
+    }
+
+}
+
+@media only screen and (max-width: 900px ) {
+
+    .contact-forms {
+        max-width: 400px;
+        flex-direction: column;
+        // background-color: aquamarine;
+
+        .contact-right {
+            margin-top: 50px;
+
+            .contact-form {
+                width: 300px;
+                // background-color: #79ADDC;
+
+                input {
+                    max-width: 300px;
+                    // background-color: aqua;
+                }
+            }
+        }
+    }
+
+}

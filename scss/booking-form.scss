@@ -1,0 +1,180 @@
+.booking-form {
+    width: 818px;
+    min-height: 300px;
+    // background-color: dodgerblue;
+    margin: 0 auto;
+    margin-top: 40px;
+
+    h2 {
+        font-family: JuliusSans;
+        font-size: 60px;
+        font-weight: lighter;
+        color: #000;
+    }
+
+    .top-form {
+        max-width: 818px;
+        min-height: 100px;
+        text-align: center;
+
+        input {
+            font-family: Sora;
+            font-size: 18px;
+            width: 344px;
+            height: 60px;
+            border: 1px solid #79ADDC;
+            margin: 10px;
+            padding-left: 20px;
+
+        }
+    }
+
+    .long-input {
+        width: 818px;
+        min-height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: -20px;
+
+
+        label {
+            font-family: Sora;
+            font-size: 18px;
+            color: #000;
+            margin-left: 55px;
+        }
+
+        input {
+            font-family: Sora;
+            font-size: 18px;
+            width: 600px;
+            height: 60px;
+            border: 1px solid #79ADDC;
+            margin-bottom: 10px;
+            margin-right: 50px;
+            padding-left: 20px;
+        }
+
+        }
+
+        .list-buttons {
+            width: 100%;
+            height: 105px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+            label {
+                font-family: Sora;
+                font-size: 18px;
+                color: #000;
+                
+
+            }
+
+            select {
+                width: 103px;
+                height: 58px;
+                font-family: Sora;
+                border: 1px solid #79ADDC;
+                font-size: 18px;
+                padding-left: 15px;
+            }
+    }
+
+    .message-box {
+        width: 820px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        input {
+            width: 725px;
+            height: 200px;
+            padding-bottom: 170px;
+            padding-left: 20px;
+        }
+
+       
+    }
+
+    .submitBtn {
+        width: 730px;
+        height: 60px;
+        background-color: #79ADDC;
+        border-radius: 20px;
+        margin-top: 40px;
+        margin-bottom: 100px;
+        margin-left: 45px;
+
+        h2 {
+            font-family: Sora;
+            font-size: 15px;
+            color: #fff;
+            text-align: center;
+            padding-top: 20px;
+        }
+    }
+
+
+}
+
+@media only screen and (max-width: 750px){
+    .booking-form {
+        width: 425px;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 700px;
+        
+        .top-form {
+            width: 400px;
+
+            .input {
+                width: 400px;
+            }
+        }
+
+        .long-input {
+            width: 400px;
+            display: flex;
+            justify-content: center;
+
+            label {
+                padding-right: 25px;
+            }
+
+            input {
+                width: 350px;
+            }
+        }
+
+        .list-buttons {
+            flex-direction: column;
+            margin-top: 100px;
+
+            select {
+                width: 150px;
+                height: 150px;
+                margin-bottom: 25px;
+            }
+        }
+
+        .message-box {
+            margin-top: 100px;
+            margin-left: -200px;
+
+            input {
+                width: 400px;
+            }
+        }
+
+        .submitBtn {
+            width: 400px;
+            margin: 0 auto;
+            margin-top: 45px;
+            margin-bottom: 100px;
+        }
+    }
+}

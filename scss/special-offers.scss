@@ -1,0 +1,131 @@
+.special-content {
+    width: 980px;
+    min-height: 200px;
+    // background-color: fuchsia;
+    margin: 0 auto;
+    padding-left: 20px;
+
+    .special-title {
+        width: 300px;
+        height: 40px;
+        margin-top: 56px;
+
+        h1 {
+            font-family: JuliusSans;
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+    }
+
+    .title-line {
+        width: 200px;
+        border-bottom: 3px solid #000;
+        margin-bottom: 35px;
+    }
+
+    .special-container {
+        width: 700px;
+        min-height: 200px;
+        // background-color: cadetblue;
+        display: flex;
+        margin-bottom: 60px;
+
+        img {
+            width: 199px;
+            height: 287px;
+
+        }
+
+        .special-text {
+            width: 500px;
+            min-height: 200px;
+            margin-left: 25px;
+            margin-bottom: 50px;
+            // background-color: blueviolet;
+            position: relative;
+
+            .special-title {
+                width: 500px;
+                min-height: 50px;
+                margin-top: auto;
+                display: flex;
+
+            h2 {
+                width: 400px;
+                font-family: JuliusSans;
+                font-size: 30px;
+                // background-color: gold;
+            }
+
+            .discount {
+                font-family: Sora;
+                font-size: 16px;
+                color: coral;
+                margin-left: -80px;
+                margin-top: 15px;
+            }
+
+        }
+        .special-line {
+            width: 215px;
+            border-bottom: 2px solid #000;
+            margin-top: -20px;
+            margin-bottom: 22px;
+        }
+
+        .special-desc {
+            width: 290px;
+            height: 131px;
+
+            p {
+                font-family: Sora;
+                font-size: 16px;
+            }
+        }
+
+        .learn-more {
+            width: 133px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: #79ADDC;
+            margin-top: 50px;
+
+            .button {
+            width: 133px;
+            height: 40px;
+            font-family: JuliusSans;
+            font-size: 16px;
+            text-transform: uppercase;
+            color: #fff;
+            padding-top: 12px;
+            margin-left: 14px;
+            }
+        }
+    }
+
+    }
+    
+}
+
+@media only screen and (max-width: 670px){
+    .special-content {
+        margin-left: 25px;
+    }
+
+    .special-container {
+        width: 350px;
+        flex-direction: column;
+        // background-color: aquamarine;
+
+        .special-content {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        img {
+            margin-bottom: 35px;
+
+        }
+
+    }
+}

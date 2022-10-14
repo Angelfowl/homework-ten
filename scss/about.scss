@@ -1,0 +1,100 @@
+.about {
+    max-width: 980px;
+    min-height: 800px;
+    // background-color: aquamarine;
+    margin: 0 auto;
+
+    .top-quote {
+        margin-top: 90px;
+        margin-left: 20px;
+
+            h1 {
+                font-family: JuliusSans;
+                font-size: 60px;
+            }
+            .line-class {
+                width: 171px;
+                border-bottom: 3px solid #000;
+                margin-top: -20px;
+            }
+
+        p {
+            font-family: Sora;
+            font-size: 16px;
+            margin-top: 37px;
+            
+        }
+
+    }
+
+    .client-section {
+        margin-top: 95px;
+        padding-bottom: 178px;
+        margin-left: 20px;
+
+        .title {
+            font-family: JuliusSans;
+            font-size: 30px;
+        }
+        .line-class2 {
+            width: 255px;
+            border-bottom: 3px solid #000;
+            margin-top: -14px;
+        }
+
+        .client-container {
+            max-width: 722px;
+            height: 150px;
+            // background-color: antiquewhite;
+            margin-top: 37px;
+            position: relative;
+            display: flex;
+
+
+            .client-pic {
+                margin-right: 20px;
+
+                img {
+                    width: 260px;
+                    height: 150px;
+                    padding-right: 20px;
+                }
+            }
+
+            .client-text {
+                font-family: Sora;
+                font-size: 16px;
+                font-style: italic;
+            }
+
+            .author-tag {
+                font-family: JuliusSans;
+                font-size: 20px;
+                color: #79ADDC;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width: 700px ) {
+
+    .client-container {
+        max-width: 500px;
+        min-height: 300px;
+        flex-direction: column;
+        margin-bottom: 100px;
+        // background-color: aqua;
+
+        .author-tag {
+            bottom: 0;
+            right: 0;
+        }
+        
+    }
+
+}
